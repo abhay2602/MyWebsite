@@ -18,9 +18,9 @@ const Home = () => {
   return (
     <div className="px-1 flex flex-col bg-gradient-to-r from-[#ffffff] via-white to-[#ffffff] overflow-x-hidden">
       {/* Main Container */}
-      <div
-        className="flex flex-col items-center text-center mt-16 bg-[url('/Home_girl.png')] bg-contain bg-no-repeat bg-center sm:bg-[left_400px_top_10px] md:bg-[left_900px_top_30px] sm:min-h-[425px] w-full"> 
-
+      <div 
+        className="flex flex-col items-center text-center mt-16 sm:bg-[url('/Home_girl.png')] sm:bg-contain sm:bg-[left_400px_top_10px] md:bg-[left_900px_top_30px] sm:bg-no-repeat sm:min-h-[425px] w-full">
+      >
         {/* New Text Above Animated Text */}
         <div className="flex flex-col items-center text-center w-full">
           <h1 className="text-2xl font-bold sm:text-4xl">
